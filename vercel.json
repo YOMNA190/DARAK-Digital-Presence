@@ -1,1 +1,5 @@
-{"version": 2, "outputs": [{"source": "dist", "destination": "dist"}]}
+{
+  "framework": "vite",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist"
+}
