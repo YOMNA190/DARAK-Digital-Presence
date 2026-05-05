@@ -1,0 +1,189 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 98%;
+    --foreground: 0 0% 10%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 10%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 10%;
+    --primary: 40 35% 60%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 0 0% 18%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 96%;
+    --muted-foreground: 0 0% 45%;
+    --accent: 40 35% 60%;
+    --accent-foreground: 0 0% 10%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 90%;
+    --input: 0 0% 90%;
+    --ring: 40 35% 60%;
+    --radius: 0.5rem;
+
+    /* Darak Brand Colors */
+    --darak-gold: #C9A96E;
+    --darak-gold-light: #D4AF37;
+    --darak-gold-dark: #A88B55;
+    --darak-charcoal: #1A1A1A;
+    --darak-charcoal-light: #2D2D2D;
+    --darak-charcoal-muted: #4A4A4A;
+    --darak-white: #FFFFFF;
+    --darak-offwhite: #FAFAFA;
+    --darak-cream: #F5F0E8;
+    
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 0 0% 18%;
+    --sidebar-primary: 40 35% 60%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 0 0% 96%;
+    --sidebar-accent-foreground: 0 0% 18%;
+    --sidebar-border: 0 0% 90%;
+    --sidebar-ring: 40 35% 60%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: 'IBM Plex Sans Arabic', -apple-system, BlinkMacSystemFont, sans-serif;
+    direction: rtl;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+}
+
+@layer components {
+  .darak-gold-text {
+    color: var(--darak-gold);
+  }
+  
+  .darak-gold-bg {
+    background-color: var(--darak-gold);
+  }
+  
+  .darak-charcoal-bg {
+    background-color: var(--darak-charcoal);
+  }
+  
+  .darak-section-padding {
+    @apply py-20 md:py-28 px-4 sm:px-6 lg:px-8 xl:px-16;
+  }
+  
+  .darak-container {
+    @apply max-w-7xl mx-auto;
+  }
+  
+  .darak-heading-xl {
+    @apply text-4xl md:text-5xl lg:text-6xl font-bold leading-tight;
+  }
+  
+  .darak-heading-lg {
+    @apply text-3xl md:text-4xl lg:text-5xl font-bold leading-tight;
+  }
+  
+  .darak-heading-md {
+    @apply text-2xl md:text-3xl font-bold;
+  }
+  
+  .darak-body {
+    @apply text-base md:text-lg leading-relaxed text-[var(--darak-charcoal-muted)];
+  }
+  
+  .darak-gold-line {
+    @apply w-16 h-1 bg-[var(--darak-gold)] rounded-full;
+  }
+  
+  .darak-card-hover {
+    @apply transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl;
+  }
+  
+  .darak-btn-primary {
+    @apply bg-[var(--darak-gold)] text-white px-8 py-4 rounded-sm font-semibold 
+           transition-all duration-300 hover:bg-[var(--darak-gold-dark)] 
+           hover:shadow-lg active:scale-95 inline-flex items-center gap-2;
+  }
+  
+  .darak-btn-secondary {
+    @apply border-2 border-[var(--darak-charcoal)] text-[var(--darak-charcoal)] 
+           px-8 py-4 rounded-sm font-semibold transition-all duration-300 
+           hover:bg-[var(--darak-charcoal)] hover:text-white 
+           active:scale-95 inline-flex items-center gap-2;
+  }
+  
+  .darak-gradient-overlay {
+    background: linear-gradient(
+      to top,
+      rgba(26, 26, 26, 0.9) 0%,
+      rgba(26, 26, 26, 0.5) 40%,
+      rgba(26, 26, 26, 0.2) 100%
+    );
+  }
+  
+  .darak-gold-gradient {
+    background: linear-gradient(
+      135deg,
+      var(--darak-gold) 0%,
+      var(--darak-gold-light) 50%,
+      var(--darak-gold-dark) 100%
+    );
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  
+  .animation-delay-200 {
+    animation-delay: 200ms;
+  }
+  
+  .animation-delay-400 {
+    animation-delay: 400ms;
+  }
+  
+  .animation-delay-600 {
+    animation-delay: 600ms;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--darak-offwhite);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--darak-gold);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--darak-gold-dark);
+}
+
+/* Selection */
+::selection {
+  background-color: var(--darak-gold);
+  color: white;
+}
