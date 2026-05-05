@@ -138,7 +138,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <span className="font-semibold text-[var(--darak-charcoal)] block text-sm">البريد الإلكتروني</span>
-                    <span className="text-[var(--darak-charcoal-muted)] text-sm">info@darak-contracting.com</span>
+                    <a href="mailto:darak1907k@gmail.com" className="text-[var(--darak-charcoal-muted)] text-sm hover:text-[var(--darak-gold)] transition-colors">darak1907k@gmail.com</a>
                   </div>
                 </div>
 
