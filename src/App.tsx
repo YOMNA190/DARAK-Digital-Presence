@@ -8,6 +8,7 @@ import PlumbingLanding from './pages/PlumbingLanding';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import WhatsAppButton from './components/WhatsAppButton';
+import PhoneButton from './components/PhoneButton';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -33,6 +34,7 @@ export default function App() {
       </div>
       <Footer />
       <WhatsAppButton />
+      <PhoneButton />
     </div>
   );
 }
