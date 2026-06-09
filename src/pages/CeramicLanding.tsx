@@ -8,42 +8,42 @@ const subServices = [
     title: 'بورسلان كبير الحجم',
     description: 'تركيب بورسلان مقاسات كبيرة بإتقان لضمان مظهر فخم وبدون فوارق.',
     icon: '🟫',
-    image: '/images/ceramic/install.jpg'
+    image: '/images/ceramic/hero.jpg'
   },
   {
     id: 2,
     title: 'زخارف سيراميك خاصة',
     description: 'تصاميم زخرفية مخصصة للأرضيات والجدران تضفي جمالاً فريداً.',
     icon: '🎨',
-    image: '/images/ceramic/install.jpg'
+    image: '/images/ceramic/luxury.jpg'
   },
   {
     id: 3,
     title: 'توحيد فواصل',
     description: 'فواصل متساوية ودقيقة باستخدام أدوات ليزر ومثبتات احترافية.',
     icon: '📏',
-    image: '/images/ceramic/install.jpg'
+    image: '/images/ceramic/bathroom.jpg'
   },
   {
     id: 4,
     title: 'تركيب سيراميك حمامات',
     description: 'سيراميك مقاوم للماء بجودة عالية مع عزل مائي متكامل.',
     icon: '🚿',
-    image: '/images/ceramic/install.jpg'
+    image: '/images/ceramic/hero.jpg'
   },
   {
     id: 5,
     title: 'تركيب سيراميك مطابخ',
     description: 'أرضيات وجدران مطابخ بأحدث التصاميم العصرية سهلة التنظيف.',
     icon: '🍳',
-    image: '/images/ceramic/install.jpg'
+    image: '/images/ceramic/luxury.jpg'
   },
   {
     id: 6,
     title: 'تركيب باركيه سيراميك',
     description: 'باركيه سيراميك بشكل خشبي طبيعي يجمع بين الجمال والمتانة.',
     icon: '🪵',
-    image: '/images/ceramic/install.jpg'
+    image: '/images/ceramic/bathroom.jpg'
   },
 ];
 

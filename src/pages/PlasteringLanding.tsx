@@ -8,12 +8,12 @@ const subServices = [
     title: 'لياسة خارجية',
     description: 'تلبيس واجهات المباني بأجود أنواع اللياسة المقاومة للعوامل الجوية.',
     icon: '🏗️',
-    image: '/images/plastering/finish.jpg'
+    image: '/images/plastering/hero.jpg'
   },
   {
     id: 2,
     title: 'محارة داخلية',
-    description: 'تنعيم الجدران الداخلية بإتقان واحترافية لتجهيزها للدهانات.',
+    description: 'تنعيم الجدران الداخلية بإتقان وااحترافية لتجهيزها للدهانات.',
     icon: '🎨',
     image: '/images/plastering/finish.jpg'
   },
@@ -22,7 +22,7 @@ const subServices = [
     title: 'تلبيس حجر',
     description: 'تركيب الحجر الطبيعي والصناعي للواجهات بلمسة فنية راقية.',
     icon: '🪨',
-    image: '/images/plastering/finish.jpg'
+    image: '/images/plastering/hero.jpg'
   },
   {
     id: 4,
@@ -36,7 +36,7 @@ const subServices = [
     title: 'تنعيم وتهذيب',
     description: 'تشطيب نهائي بجودة عالية للمباني والأسطح الخرسانية.',
     icon: '✨',
-    image: '/images/plastering/finish.jpg'
+    image: '/images/plastering/hero.jpg'
   },
   {
     id: 6,

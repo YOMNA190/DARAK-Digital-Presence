@@ -8,14 +8,14 @@ const subServices = [
     title: 'تأسيس كهرباء جديد',
     description: 'تمديد شبكات كهربائية كاملة للمباني الجديدة بأعلى معايير السلامة.',
     icon: '⚡',
-    image: '/images/electrical/panel.jpg'
+    image: '/images/electrical/hero.jpg'
   },
   {
     id: 2,
     title: 'صيانة كهرباء',
     description: 'تصليح الأعطال الكهربائية واستبدال اللوحات والمفاتيح التالفة.',
     icon: '🔧',
-    image: '/images/electrical/panel.jpg'
+    image: '/images/electrical/inspection.jpg'
   },
   {
     id: 3,
@@ -29,21 +29,21 @@ const subServices = [
     title: 'تركيب إنارة',
     description: 'إنارة داخلية وخارجية LED بأحدث التصاميم الموفرة للطاقة.',
     icon: '💡',
-    image: '/images/electrical/panel.jpg'
+    image: '/images/electrical/wiring.png'
   },
   {
     id: 5,
     title: 'تركيب داتا وشبكات',
     description: 'تمديد كابلات الشبكة والاتصالات وأنظمة الأمان الحديثة.',
     icon: '🌐',
-    image: '/images/electrical/panel.jpg'
+    image: '/images/electrical/inspection.jpg'
   },
   {
     id: 6,
     title: 'كشف أعطال كهربائية',
     description: 'كشف دقيق للأعطال والتماسات الكهرباء بأحدث الأجهزة المتخصصة.',
     icon: '🔍',
-    image: '/images/electrical/panel.jpg'
+    image: '/images/electrical/wiring.png'
   },
 ];
 

@@ -8,42 +8,42 @@ const subServices = [
     title: 'رخام إيطالي',
     description: 'رخام مستورد من إيطاليا بأجود الأنواع وأرقى التصاميم.',
     icon: '💎',
-    image: '/images/marble/install.jpg'
+    image: '/images/marble/hero.jpg'
   },
   {
     id: 2,
     title: 'رخام صناعي',
     description: 'رخام صناعي عالي الجودة بأسعار تنافسية للمطابخ والمغاسل.',
     icon: '✨',
-    image: '/images/marble/install.jpg'
+    image: '/images/marble/floor.jpg'
   },
   {
     id: 3,
     title: 'تركيب أرضيات رخام',
     description: 'تغطية الأرضيات بإتقان واحترافية لضمان استواء السطح.',
     icon: '🏠',
-    image: '/images/marble/install.jpg'
+    image: '/images/marble/design.jpeg'
   },
   {
     id: 4,
     title: 'تركيب درج رخام',
     description: 'درج رخامي متكامل بجودة عالية وتشطيب فني دقيق.',
     icon: '🪜',
-    image: '/images/marble/install.jpg'
+    image: '/images/marble/hero.jpg'
   },
   {
     id: 5,
     title: 'تركيب واجهات رخام',
     description: 'تلبيس واجهات خارجية بالرخام الطبيعي لإعطاء مظهر فخم.',
     icon: '🏢',
-    image: '/images/marble/install.jpg'
+    image: '/images/marble/floor.jpg'
   },
   {
     id: 6,
     title: 'تلميع وصيانة رخام',
     description: 'تلميع دوري وصيانة للرخام المتركب لاستعادة بريقه.',
     icon: '🌟',
-    image: '/images/marble/install.jpg'
+    image: '/images/marble/design.jpeg'
   },
 ];
 

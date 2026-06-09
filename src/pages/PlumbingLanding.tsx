@@ -15,35 +15,35 @@ const subServices = [
     title: 'صيانة سباكة',
     description: 'تصليح تسريبات، تبديل خلاطات، صيانة دورية بأيدي خبراء.',
     icon: '🔧',
-    image: '/images/plumbing/hero.jpg'
+    image: '/images/plumbing/faucet.webp'
   },
   {
     id: 3,
     title: 'كشف تسربات المياه',
     description: 'كشف إلكتروني دقيق بدون تكسير باستخدام أحدث التقنيات.',
     icon: '🔍',
-    image: '/images/plumbing/hero.jpg'
+    image: '/images/plumbing/leak.webp'
   },
   {
     id: 4,
     title: 'تركيب سخانات مياه',
     description: 'تركيب وتبديل سخانات كهرباء وغاز مع ضمان السلامة.',
     icon: '🌡️',
-    image: '/images/plumbing/hero.jpg'
+    image: '/images/plumbing/heater.webp'
   },
   {
     id: 5,
     title: 'تركيب خلاطات ومغاسل',
     description: 'تركيب وتبديل جميع أنواع الخلاطات والمغاسل بلمسة احترافية.',
     icon: '🚿',
-    image: '/images/plumbing/hero.jpg'
+    image: '/images/plumbing/fixtures.jpg'
   },
   {
     id: 6,
     title: 'تأسيس حمامات ومطابخ',
     description: 'تركيب كامل لسباكة المطابخ والحمامات بتصاميم عصرية.',
     icon: '🛁',
-    image: '/images/plumbing/hero.jpg'
+    image: '/images/plumbing/tools.jpg'
   },
 ];
 

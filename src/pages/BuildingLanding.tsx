@@ -8,28 +8,28 @@ const subServices = [
     title: 'بناء فلل سكنية',
     description: 'بناء فلل حديثة بتصاميم معمارية عصرية وتقنيات بناء متقدمة.',
     icon: '🏗️',
-    image: '/images/building/site.jpg'
+    image: '/images/building/villa.jpg'
   },
   {
     id: 2,
     title: 'بناء عمائر سكنية',
     description: 'تشييد عمائر سكنية متعددة الطوابق بمعايير الأمان العالمية.',
     icon: '🏢',
-    image: '/images/building/site.jpg'
+    image: '/images/building/highrise.jpg'
   },
   {
     id: 3,
     title: 'أعمال خرسانية',
     description: 'صب وتشطيب خرساني بأعلى جودة وأحدث المعدات.',
     icon: '🪨',
-    image: '/images/building/site.jpg'
+    image: '/images/building/foundation.jpg'
   },
   {
     id: 4,
     title: 'تدعيم وترميم',
     description: 'تدعيم المباني القديمة وترميم الأساسات والجدران.',
     icon: '🔨',
-    image: '/images/building/site.jpg'
+    image: '/images/building/modern.jpg'
   },
   {
     id: 5,
@@ -43,7 +43,7 @@ const subServices = [
     title: 'إشراف هندسي',
     description: 'إشراف هندسي متكامل على جميع مراحل البناء.',
     icon: '📋',
-    image: '/images/building/site.jpg'
+    image: '/images/building/supervision.webp'
   },
 ];
 
