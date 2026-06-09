@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import Services from './pages/Services';
 import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
+import PlumbingLanding from './pages/PlumbingLanding';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import WhatsAppButton from './components/WhatsAppButton';
@@ -27,6 +28,7 @@ export default function App() {
           <Route path="/services" element={<Services />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/plumbing-services" element={<PlumbingLanding />} />
         </Routes>
       </div>
       <Footer />

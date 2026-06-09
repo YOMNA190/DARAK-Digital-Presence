@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import { Check, Phone, MessageSquare } from 'lucide-react';
+import { Link } from 'react-router';
 
 const services = [
   {
@@ -193,6 +194,14 @@ export default function ServicesPage() {
                 <p className="text-[var(--darak-charcoal-muted)] leading-relaxed mb-6">
                   {service.description}
                 </p>
+                {service.id === 'plumbing' && (
+                  <Link
+                    to="/plumbing-services"
+                    className="inline-block mb-6 text-[var(--darak-gold)] font-bold hover:underline"
+                  >
+                    عرض صفحة الخدمة المتكاملة (SEO) ←
+                  </Link>
+                )}
 
                 {/* Features */}
                 <ul className="space-y-3 mb-8">
