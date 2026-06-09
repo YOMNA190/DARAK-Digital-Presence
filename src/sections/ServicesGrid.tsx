@@ -7,42 +7,42 @@ const services = [
     subtitle: 'مقاول مباني معتمد',
     image: '/images/service-building.jpg',
     size: 'large',
-    href: '/services/building.html',
+    href: '/building-services',
   },
   {
     title: 'اللياسة والمحارة',
     subtitle: 'جودة فائقة في التشطيب',
     image: '/images/service-plastering.jpg',
     size: 'medium',
-    href: '/services/plastering.html',
+    href: '/plastering-services',
   },
   {
     title: 'السباكة المعتمدة',
     subtitle: 'تركيبات صحية احترافية',
     image: '/images/service-plumbing.jpg',
     size: 'medium',
-    href: '/services/plumbing.html',
+    href: '/plumbing-services',
   },
   {
     title: 'الكهرباء المعتمدة',
     subtitle: 'أنظمة كهربائية آمنة',
     image: '/images/service-electrical.jpg',
     size: 'medium',
-    href: '/services/electrical.html',
+    href: '/electrical-services',
   },
   {
     title: 'تركيب الرخام',
     subtitle: 'فخامة تدوم',
     image: '/images/service-marble.jpg',
     size: 'medium',
-    href: '/services/marble.html',
+    href: '/marble-services',
   },
   {
     title: 'تركيب السيراميك',
     subtitle: 'دقة في كل بلاطة',
     image: '/images/service-ceramic.jpg',
     size: 'medium',
-    href: '/services/ceramics.html',
+    href: '/ceramic-services',
   },
   {
     title: 'الجبسن بورد',
@@ -79,9 +79,9 @@ export default function ServicesGrid() {
         {/* Bento Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 auto-rows-[280px]">
           {services.map((service, index) => (
-            <a
+            <Link
               key={service.title}
-              href={service.href}
+              to={service.href}
               className={`group relative overflow-hidden rounded-lg darak-card-hover ${
                 service.size === 'large' 
                   ? 'md:col-span-2 md:row-span-2' 
@@ -118,7 +118,7 @@ export default function ServicesGrid() {
 
               {/* Corner decoration */}
               <div className="absolute top-4 left-4 w-8 h-8 border-l-2 border-t-2 border-white/20 group-hover:border-[var(--darak-gold)] transition-colors duration-500" />
-            </a>
+            </Link>
           ))}
         </div>
       </div>

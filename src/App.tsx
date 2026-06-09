@@ -5,6 +5,11 @@ import Services from './pages/Services';
 import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
 import PlumbingLanding from './pages/PlumbingLanding';
+import BuildingLanding from './pages/BuildingLanding';
+import PlasteringLanding from './pages/PlasteringLanding';
+import ElectricalLanding from './pages/ElectricalLanding';
+import MarbleLanding from './pages/MarbleLanding';
+import CeramicLanding from './pages/CeramicLanding';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import WhatsAppButton from './components/WhatsAppButton';
@@ -30,6 +35,11 @@ export default function App() {
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/plumbing-services" element={<PlumbingLanding />} />
+          <Route path="/building-services" element={<BuildingLanding />} />
+          <Route path="/plastering-services" element={<PlasteringLanding />} />
+          <Route path="/electrical-services" element={<ElectricalLanding />} />
+          <Route path="/marble-services" element={<MarbleLanding />} />
+          <Route path="/ceramic-services" element={<CeramicLanding />} />
         </Routes>
       </div>
       <Footer />
