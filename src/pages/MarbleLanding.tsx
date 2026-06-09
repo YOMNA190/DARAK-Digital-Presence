@@ -1,4 +1,4 @@
-import { Check, Phone, MessageSquare, Shield, Clock, Award, Sparkles, Search, PenTool as Tool, Gem, Star, AlertTriangle } from 'lucide-react';
+import { Check, Phone, MessageSquare, Shield, Clock, Award, Star, AlertTriangle, Search, PenTool as Tool, Hammer, Zap } from 'lucide-react';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import SEO from '@/components/SEO';
 
@@ -8,134 +8,134 @@ const subServices = [
     title: 'رخام إيطالي',
     description: 'رخام مستورد من إيطاليا بأجود الأنواع وأرقى التصاميم.',
     icon: '💎',
-    image: 'https://images.unsplash.com/photo-1560185007-cde436f6a4d0?q=80&w=1000&auto=format&fit=crop'
+    image: '/images/marble/install.jpg'
   },
   {
     id: 2,
     title: 'رخام صناعي',
     description: 'رخام صناعي عالي الجودة بأسعار تنافسية للمطابخ والمغاسل.',
     icon: '✨',
-    image: 'https://images.unsplash.com/photo-1560185007-cde436f6a4d0?q=80&w=1000&auto=format&fit=crop'
+    image: '/images/marble/install.jpg'
   },
   {
     id: 3,
     title: 'تركيب أرضيات رخام',
     description: 'تغطية الأرضيات بإتقان واحترافية لضمان استواء السطح.',
     icon: '🏠',
-    image: 'https://images.unsplash.com/photo-1560185007-cde436f6a4d0?q=80&w=1000&auto=format&fit=crop'
+    image: '/images/marble/install.jpg'
   },
   {
     id: 4,
     title: 'تركيب درج رخام',
     description: 'درج رخامي متكامل بجودة عالية وتشطيب فني دقيق.',
     icon: '🪜',
-    image: 'https://images.unsplash.com/photo-1560185007-cde436f6a4d0?q=80&w=1000&auto=format&fit=crop'
+    image: '/images/marble/install.jpg'
   },
   {
     id: 5,
     title: 'تركيب واجهات رخام',
     description: 'تلبيس واجهات خارجية بالرخام الطبيعي لإعطاء مظهر فخم.',
     icon: '🏢',
-    image: 'https://images.unsplash.com/photo-1560185007-cde436f6a4d0?q=80&w=1000&auto=format&fit=crop'
+    image: '/images/marble/install.jpg'
   },
   {
     id: 6,
     title: 'تلميع وصيانة رخام',
     description: 'تلميع دوري وصيانة للرخام المتركب لاستعادة بريقه.',
     icon: '🌟',
-    image: 'https://images.unsplash.com/photo-1560185007-cde436f6a4d0?q=80&w=1000&auto=format&fit=crop'
+    image: '/images/marble/install.jpg'
   },
 ];
 
 const whyChooseUs = [
   {
-    title: 'ضمان سنة',
-    description: 'ضمان شامل على جودة التركيب والمواد المستخدمة.',
-    icon: Shield,
-  },
-  {
-    title: 'تلميع دوري',
-    description: 'خدمات تلميع دورية للحفاظ على المظهر الفخم.',
-    icon: Sparkles,
-  },
-  {
     title: 'خامات مستوردة',
-    description: 'رخام من أفضل المصادر العالمية وأحدث التصاميم.',
-    icon: Gem,
+    description: 'نوفر أجود أنواع الرخام الطبيعي والصناعي من مصادر موثوقة.',
+    icon: Award,
   },
   {
     title: 'فنيون متخصصون',
-    description: 'خبرة طويلة في التعامل مع الرخام الطبيعي والصناعي.',
-    icon: Award,
+    description: 'عمالة مدربة على أعلى مستوى في قص وتركيب الرخام.',
+    icon: Check,
+  },
+  {
+    title: 'دقة في المواعيد',
+    description: 'نلتزم بالجدول الزمني المحدد لتسليم العمل.',
+    icon: Clock,
+  },
+  {
+    title: 'ضمان الجودة',
+    description: 'نقدم ضماناً على جودة التركيب وسلامة الرخام.',
+    icon: Shield,
   },
 ];
 
 const processSteps = [
   {
     id: 1,
-    title: 'اختيار الرخام',
-    description: 'عرض مجموعة واسعة من أنواع الرخام واختيار ما يناسبك.',
+    title: 'اختيار الخامة',
+    description: 'مساعدتك في اختيار نوع الرخام المناسب لمشروعك.',
     icon: Phone,
   },
   {
     id: 2,
     title: 'رفع المقاسات',
-    description: 'قياس دقيق للموقع وتحديد الكميات المطلوبة.',
+    description: 'زيارة الموقع لرفع المقاسات بدقة متناهية.',
     icon: Search,
   },
   {
     id: 3,
     title: 'التركيب الفني',
-    description: 'تركيب احترافي بأحدث الأدوات والتقنيات.',
-    icon: Tool,
+    description: 'تركيب الرخام باستخدام أحدث الطرق والمواد.',
+    icon: Hammer,
   },
   {
     id: 4,
     title: 'التلميع النهائي',
-    description: 'تلميع وتنعيم نهائي لضمان مظهر فخم.',
-    icon: Sparkles,
+    description: 'تلميع السطح وتنظيفه ليعطي البريق المطلوب.',
+    icon: Tool,
   },
 ];
 
 const testimonials = [
   {
-    name: 'فاطمة، الدمام',
-    text: 'الرخام اللي اختاروه لي كان فخم جداً والتركيب احترافي. البيت طلع أحسن من توقعاتي.',
+    name: 'سلطان، الدمام',
+    text: 'ركبت رخام فيلتي بالكامل مع دارك، الشغل كان فوق الممتاز والفنيين قمة في الأخلاق والاحترافية.',
     rating: 5,
   },
   {
-    name: 'محمد، الخبر',
+    name: 'نورة، الخبر',
     text: 'خامات أصلية وفنيين محترفين. الضمان اللي قدموه أعطاني ثقة كاملة في شغلهم.',
     rating: 5,
   },
   {
-    name: 'ليلى، الظهران',
-    text: 'أنصح أي حد يبي يركب رخام معهم. شغل نظيف وسرعة في التنفيذ.',
+    name: 'أحمد، الظهران',
+    text: 'دقة في المواعيد وتشطيب رائع جداً. أنصح بهم لكل من يبحث عن الفخامة.',
     rating: 5,
   },
 ];
 
 const faqs = [
   {
-    question: 'هل الرخام شامل التوريد؟',
-    answer: 'نعم، نوفر خدمة التوريد والتركيب أو التركيب فقط حسب طلب العميل.',
+    question: 'هل توفرون الرخام الطبيعي فقط؟',
+    answer: 'نوفر الرخام الطبيعي المستورد والمحلي، بالإضافة إلى أجود أنواع الرخام الصناعي.',
   },
   {
-    question: 'كم مدة تركيب رخام فيلا؟',
-    answer: 'تعتمد على المساحة والتفاصيل، وعادة ما تستغرق من 7 إلى 14 يوماً.',
+    question: 'هل يشمل السعر التوريد والتركيب؟',
+    answer: 'نقدم عروضاً تشمل التوريد والتركيب، أو التركيب فقط حسب رغبة العميل.',
   },
   {
-    question: 'هل تقدمون صيانة دورية؟',
-    answer: 'نعم، نوفر عقود صيانة وتلميع دورية للحفاظ على جمال الرخام.',
+    question: 'كيف يتم تنظيف الرخام؟',
+    answer: 'نقدم تعليمات كاملة للعناية بالرخام، كما نوفر خدمة التلميع والصيانة الدورية.',
   },
   {
-    question: 'ما هي أنواع الرخام المتوفرة؟',
-    answer: 'نوفر رخام إيطالي طبيعي، رخام صناعي، وأنواع محلية بأسعار متنوعة.',
+    question: 'هل يوجد ضمان على الرخام؟',
+    answer: 'نعم، نقدم ضماناً لمدة سنة على أعمال التركيب وسلامة الرخام من العيوب.',
   },
 ];
 
 export default function MarbleLanding() {
-  const whatsappMessage = encodeURIComponent('السلام عليكم، أرغب في الاستفسار عن خدمات تركيب الرخام من شركة دارك.');
+  const whatsappMessage = encodeURIComponent('السلام عليكم، أرغب في الاستفسار عن خدمات تركيب الرخام الفاخر من شركة دارك.');
   const whatsappUrl = `https://wa.me/966580369568?text=${whatsappMessage}`;
   const phoneNumber = '+966580369568';
 
@@ -151,7 +151,7 @@ export default function MarbleLanding() {
       <section className="relative min-h-[80vh] flex items-center pt-20 overflow-hidden bg-[var(--darak-charcoal)]">
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1000&auto=format&fit=crop" 
+            src="/images/marble/hero.jpg" 
             alt="تركيب رخام فاخر - شركة دارك" 
             className="w-full h-full object-cover opacity-40"
           />
@@ -188,7 +188,7 @@ export default function MarbleLanding() {
           <div className="text-center mb-16">
             <h2 className="darak-heading-lg text-[var(--darak-charcoal)] mb-4">خدماتنا المتخصصة</h2>
             <div className="darak-gold-line mx-auto mb-6" />
-            <p className="darak-body max-w-2xl mx-auto">نقدم حلولاً متكاملة لتركيب الرخام بأعلى معايير الجودة والفخامة.</p>
+            <p className="darak-body max-w-2xl mx-auto">نقدم أرقى خدمات تركيب الرخام والجرانيت بتشطيبات فنية مذهلة.</p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -236,8 +236,8 @@ export default function MarbleLanding() {
       <section className="py-24 bg-[var(--darak-offwhite)]">
         <div className="darak-container px-4">
           <div className="text-center mb-16">
-            <h2 className="darak-heading-lg text-[var(--darak-charcoal)] mb-4">خطوات العمل</h2>
-            <p className="darak-body">عملية منظمة لضمان أفضل النتائج.</p>
+            <h2 className="darak-heading-lg text-[var(--darak-charcoal)] mb-4">مراحل العمل</h2>
+            <p className="darak-body">خطوات دقيقة تضمن لك فخامة تدوم طويلاً.</p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 relative">
@@ -297,11 +297,11 @@ export default function MarbleLanding() {
           <div className="flex flex-col lg:flex-row items-center justify-between gap-10">
             <div className="flex items-center gap-6">
               <div className="w-20 h-20 bg-white/20 rounded-full flex items-center justify-center animate-pulse">
-                <AlertTriangle className="w-12 h-12 text-white" />
+                <Star className="w-12 h-12 text-white" />
               </div>
               <div>
-                <h2 className="text-3xl md:text-4xl font-bold mb-2">تبحث عن فخامة الرخام؟</h2>
-                <p className="text-xl text-white/90">نحن نوفر لك أفضل أنواع الرخام مع تركيب احترافي يضمن لك الجودة والجمال.</p>
+                <h2 className="text-3xl md:text-4xl font-bold mb-2">تبحث عن الفخامة والتميز؟</h2>
+                <p className="text-xl text-white/90">فريقنا جاهز لتحويل مساحتك إلى تحفة فنية باستخدام أجود أنواع الرخام.</p>
               </div>
             </div>
             <div className="flex flex-wrap gap-4">

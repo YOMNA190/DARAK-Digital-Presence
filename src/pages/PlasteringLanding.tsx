@@ -1,4 +1,4 @@
-import { Check, Phone, MessageSquare, Shield, Clock, Award, Hammer, Search, PenTool as Tool, Zap, Star, AlertTriangle } from 'lucide-react';
+import { Check, Phone, MessageSquare, Shield, Clock, Award, Star, AlertTriangle, Search, PenTool as Tool, Hammer, Zap } from 'lucide-react';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import SEO from '@/components/SEO';
 
@@ -8,42 +8,42 @@ const subServices = [
     title: 'لياسة خارجية',
     description: 'تلبيس واجهات المباني بأجود أنواع اللياسة المقاومة للعوامل الجوية.',
     icon: '🏗️',
-    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?q=80&w=1000&auto=format&fit=crop'
+    image: '/images/plastering/finish.jpg'
   },
   {
     id: 2,
     title: 'محارة داخلية',
     description: 'تنعيم الجدران الداخلية بإتقان واحترافية لتجهيزها للدهانات.',
     icon: '🎨',
-    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?q=80&w=1000&auto=format&fit=crop'
+    image: '/images/plastering/finish.jpg'
   },
   {
     id: 3,
     title: 'تلبيس حجر',
     description: 'تركيب الحجر الطبيعي والصناعي للواجهات بلمسة فنية راقية.',
     icon: '🪨',
-    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?q=80&w=1000&auto=format&fit=crop'
+    image: '/images/plastering/finish.jpg'
   },
   {
     id: 4,
     title: 'عزل حراري ومائي',
     description: 'عزل حراري ومائي للجدران والأسطح لتقليل استهلاك الطاقة.',
     icon: '❄️',
-    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?q=80&w=1000&auto=format&fit=crop'
+    image: '/images/plastering/finish.jpg'
   },
   {
     id: 5,
     title: 'تنعيم وتهذيب',
     description: 'تشطيب نهائي بجودة عالية للمباني والأسطح الخرسانية.',
     icon: '✨',
-    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?q=80&w=1000&auto=format&fit=crop'
+    image: '/images/plastering/finish.jpg'
   },
   {
     id: 6,
     title: 'تشطيبات خرسانية',
     description: 'تنعيم وتشطيب الأسطح الخرسانية بأحدث المعدات.',
     icon: '🔨',
-    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?q=80&w=1000&auto=format&fit=crop'
+    image: '/images/plastering/finish.jpg'
   },
 ];
 
@@ -54,83 +54,83 @@ const whyChooseUs = [
     icon: Award,
   },
   {
-    title: 'ضمان سنة',
-    description: 'نقدم ضماناً مكتوباً على جودة أعمال اللياسة.',
+    title: 'خامات عالية الجودة',
+    description: 'نستخدم أفضل أنواع الإسمنت والمواد العازلة المعتمدة.',
     icon: Shield,
   },
   {
-    title: 'استجابة 24 ساعة',
-    description: 'للمعاينة وتقديم عروض الأسعار في أسرع وقت.',
-    icon: Clock,
+    title: 'استواء تام',
+    description: 'نضمن استواء الجدران والأسطح بنسبة 100% باستخدام القدة والوتر.',
+    icon: Check,
   },
   {
-    title: 'خامات عالية',
-    description: 'نستخدم أفضل أنواع الإسمنت والمواد الأصلية.',
-    icon: Check,
+    title: 'ضمان سنة',
+    description: 'نقدم ضماناً على جودة اللياسة وعدم حدوث تشققات.',
+    icon: Clock,
   },
 ];
 
 const processSteps = [
   {
     id: 1,
-    title: 'تجهيز الجدران',
-    description: 'تنظيف وتجهيز السطح للبدء في عملية اللياسة.',
+    title: 'طرطشة الجدران',
+    description: 'تجهيز السطح بطبقة طرطشة قوية لضمان تماسك اللياسة.',
     icon: Phone,
   },
   {
     id: 2,
-    title: 'طرطشة الإسمنت',
-    description: 'وضع الطبقة الأولى من الإسمنت لضمان التصاق قوي.',
-    icon: Hammer,
-  },
-  {
-    id: 3,
-    title: 'وزن اللياسة',
-    description: 'توزيع اللياسة بشكل متساوٍ وتسوية السطح.',
+    title: 'البؤج والأوتار',
+    description: 'ضبط استواء الجدران باستخدام نظام البؤج والأوتار بدقة.',
     icon: Search,
   },
   {
+    id: 3,
+    title: 'ملء اللياسة',
+    description: 'تعبئة الجدران بمونة الإسمنت وتسويتها باحترافية.',
+    icon: Hammer,
+  },
+  {
     id: 4,
-    title: 'التشطيب النهائي',
-    description: 'تنعيم نهائي وتجهيز السطح للدهانات.',
+    title: 'التنعيم والتشطيب',
+    description: 'تنعيم السطح النهائي ليكون جاهزاً للدهانات مباشرة.',
     icon: Tool,
   },
 ];
 
 const testimonials = [
   {
-    name: 'فاطمة، الدمام',
+    name: 'سعد، الدمام',
     text: 'شغل اللياسة بتاعهم احترافي جداً، الجدران طلعت ناعمة جداً والفنيين كانوا منظمين ومحترفين.',
     rating: 5,
   },
   {
-    name: 'علي، الخبر',
-    text: 'استخدموا مواد أصلية وجودة عالية. الضمان اللي قدموه أعطاني ثقة كاملة في شغلهم.',
+    name: 'منى، الخبر',
+    text: 'التزموا بالجدول الزمني والجودة كانت ممتازة. التشققات اللي كنت خايفة منها مظهرتش خالص.',
     rating: 5,
   },
   {
-    name: 'ليلى، الظهران',
-    text: 'سرعة في التنفيذ وجودة ممتازة. أنصح أي حد يعمل لياسة معهم.',
+    name: 'فيصل، الظهران',
+    text: 'أفضل شركة لياسة تعاملت معها في المنطقة الشرقية. دقة وأمانة في العمل.',
     rating: 5,
   },
 ];
 
 const faqs = [
   {
-    question: 'كم مدة عملية اللياسة؟',
-    answer: 'تعتمد على مساحة المبنى، لكن عادة ما تستغرق الفيلا المتوسطة من 10 إلى 15 يوماً.',
+    question: 'هل تستخدمون اللياسة الملونة؟',
+    answer: 'نعم، نوفر خدمات اللياسة الملونة والرشات الخارجية بأنواعها.',
   },
   {
-    question: 'هل الخامات مشمولة؟',
-    answer: 'نوفر خيارات العمل بالمواد أو بدونها حسب رغبة العميل.',
+    question: 'ما هي طريقة ضبط استواء الجدران؟',
+    answer: 'نعتمد بشكل أساسي على نظام البؤج والأوتار لضمان استواء الجدران رأسياً وأفقياً.',
   },
   {
-    question: 'هل تغطون الدمام والخبر؟',
-    answer: 'نعم، نغطي كافة أحياء الدمام والخبر والظهران والقطيف.',
+    question: 'هل تعالجون تشققات اللياسة القديمة؟',
+    answer: 'نعم، لدينا فريق متخصص لترميم ومعالجة تشققات الجدران والواجهات.',
   },
   {
-    question: 'ما هي مدة الضمان على اللياسة؟',
-    answer: 'نقدم ضماناً لمدة سنة على جودة أعمال اللياسة والمحارة.',
+    question: 'كم يستغرق لياسة فيلا متوسطة؟',
+    answer: 'تستغرق أعمال اللياسة الداخلية والخارجية لفيلا متوسطة من 15 إلى 25 يوم عمل.',
   },
 ];
 
@@ -151,7 +151,7 @@ export default function PlasteringLanding() {
       <section className="relative min-h-[80vh] flex items-center pt-20 overflow-hidden bg-[var(--darak-charcoal)]">
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.unsplash.com/photo-1589939705384-5185137a7f0f?q=80&w=1000&auto=format&fit=crop" 
+            src="/images/plastering/hero.jpg" 
             alt="لياسة ومحارة احترافية - شركة دارك" 
             className="w-full h-full object-cover opacity-40"
           />
@@ -188,7 +188,7 @@ export default function PlasteringLanding() {
           <div className="text-center mb-16">
             <h2 className="darak-heading-lg text-[var(--darak-charcoal)] mb-4">خدماتنا المتخصصة</h2>
             <div className="darak-gold-line mx-auto mb-6" />
-            <p className="darak-body max-w-2xl mx-auto">نقدم حلولاً متكاملة لكافة احتياجات اللياسة والمحارة بأعلى معايير الإتقان.</p>
+            <p className="darak-body max-w-2xl mx-auto">نقدم حلولاً متكاملة لأعمال اللياسة والمحارة بأعلى معايير الجودة.</p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -237,7 +237,7 @@ export default function PlasteringLanding() {
         <div className="darak-container px-4">
           <div className="text-center mb-16">
             <h2 className="darak-heading-lg text-[var(--darak-charcoal)] mb-4">مراحل العمل</h2>
-            <p className="darak-body">خطوات منظمة تضمن لك نتيجة احترافية ومرضية.</p>
+            <p className="darak-body">خطوات دقيقة تضمن لك جودة اللياسة واستواء الجدران.</p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 relative">
@@ -297,11 +297,11 @@ export default function PlasteringLanding() {
           <div className="flex flex-col lg:flex-row items-center justify-between gap-10">
             <div className="flex items-center gap-6">
               <div className="w-20 h-20 bg-white/20 rounded-full flex items-center justify-center animate-pulse">
-                <AlertTriangle className="w-12 h-12 text-white" />
+                <Hammer className="w-12 h-12 text-white" />
               </div>
               <div>
-                <h2 className="text-3xl md:text-4xl font-bold mb-2">محتاج تشطيب احترافي؟</h2>
-                <p className="text-xl text-white/90">فريقنا جاهز لتنفيذ أعمال اللياسة بأعلى دقة واحترافية.</p>
+                <h2 className="text-3xl md:text-4xl font-bold mb-2">محتاج لياسة احترافية لواجهة منزلك؟</h2>
+                <p className="text-xl text-white/90">نحن نضمن لك جودة التشطيب واستواء الجدران بأعلى المعايير.</p>
               </div>
             </div>
             <div className="flex flex-wrap gap-4">

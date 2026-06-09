@@ -1,4 +1,4 @@
-import { Check, Phone, MessageSquare, Shield, Clock, Award, Droplets, Search, PenTool as Tool, Waves, Star, AlertTriangle } from 'lucide-react';
+import { Check, Phone, MessageSquare, Shield, Clock, Award, Zap, Search, PenTool as Tool, Hammer, Star, AlertTriangle } from 'lucide-react';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import SEO from '@/components/SEO';
 
@@ -8,42 +8,42 @@ const subServices = [
     title: 'تأسيس سباكة جديدة',
     description: 'تركيب مواسير وشبكات صحية للمباني الجديدة والفلل بأعلى المعايير.',
     icon: '🚰',
-    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?q=80&w=1000&auto=format&fit=crop'
+    image: '/images/plumbing/hero.jpg'
   },
   {
     id: 2,
     title: 'صيانة سباكة',
     description: 'تصليح تسريبات، تبديل خلاطات، صيانة دورية بأيدي خبراء.',
     icon: '🔧',
-    image: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=1000&auto=format&fit=crop'
+    image: '/images/plumbing/hero.jpg'
   },
   {
     id: 3,
     title: 'كشف تسربات المياه',
     description: 'كشف إلكتروني دقيق بدون تكسير باستخدام أحدث التقنيات.',
     icon: '🔍',
-    image: 'https://images.unsplash.com/photo-1595467793069-930a599587c4?q=80&w=1000&auto=format&fit=crop'
+    image: '/images/plumbing/hero.jpg'
   },
   {
     id: 4,
     title: 'تركيب سخانات مياه',
     description: 'تركيب وتبديل سخانات كهرباء وغاز مع ضمان السلامة.',
     icon: '🌡️',
-    image: 'https://images.unsplash.com/photo-1585704032915-c3400ca1f963?q=80&w=1000&auto=format&fit=crop'
+    image: '/images/plumbing/hero.jpg'
   },
   {
     id: 5,
     title: 'تركيب خلاطات ومغاسل',
     description: 'تركيب وتبديل جميع أنواع الخلاطات والمغاسل بلمسة احترافية.',
     icon: '🚿',
-    image: 'https://images.unsplash.com/photo-1585704032975-c3f82e846092?q=80&w=1000&auto=format&fit=crop'
+    image: '/images/plumbing/hero.jpg'
   },
   {
     id: 6,
     title: 'تأسيس حمامات ومطابخ',
     description: 'تركيب كامل لسباكة المطابخ والحمامات بتصاميم عصرية.',
     icon: '🛁',
-    image: 'https://images.unsplash.com/photo-1556911220-e15b29be8c8f?q=80&w=1000&auto=format&fit=crop'
+    image: '/images/plumbing/hero.jpg'
   },
 ];
 
@@ -55,87 +55,87 @@ const whyChooseUs = [
   },
   {
     title: 'ضمان 2 سنة',
-    description: 'نقدم ضماناً مكتوباً على كل التركيبات لضمان راحة بالك.',
+    description: 'نقدم ضماناً مكتوباً على جميع أعمال السباكة والتركيب.',
     icon: Shield,
   },
   {
-    title: 'استجابة خلال 4 ساعات',
-    description: 'فريقنا جاهز للوصول إليك بسرعة فائقة في حالات الطوارئ.',
+    title: 'استجابة سريعة',
+    description: 'نصلك في حالات الطوارئ خلال أقل من 4 ساعات.',
     icon: Clock,
   },
   {
-    title: 'مرخص ومعتمد',
-    description: 'مرخص من وزارة الإسكان وعضو في الغرفة التجارية.',
-    icon: Check,
+    title: 'أدوات حديثة',
+    description: 'نستخدم أحدث أجهزة كشف التسربات وأدوات السباكة.',
+    icon: Zap,
   },
 ];
 
 const processSteps = [
   {
     id: 1,
-    title: 'اتصل أو ارسل واتساب',
-    description: 'تواصل معنا لتحديد المشكلة أو الخدمة المطلوبة.',
+    title: 'طلب الخدمة',
+    description: 'تواصل معنا عبر الهاتف أو الواتساب لتحديد المشكلة.',
     icon: Phone,
   },
   {
     id: 2,
-    title: 'فني يصلك في 4 ساعات',
-    description: 'نرسل أفضل الفنيين المتخصصين لموقعك فوراً.',
-    icon: Clock,
-  },
-  {
-    id: 3,
-    title: 'معاينة وعرض سعر',
-    description: 'فحص دقيق وتقديم عرض سعر شفاف قبل البدء.',
+    title: 'فحص ومعاينة',
+    description: 'زيارة الفني للموقع لتشخيص العطل وتحديد التكلفة.',
     icon: Search,
   },
   {
+    id: 3,
+    title: 'التنفيذ والإصلاح',
+    description: 'بدء العمل فوراً باستخدام قطع غيار أصلية وأدوات حديثة.',
+    icon: Hammer,
+  },
+  {
     id: 4,
-    title: 'تنفيذ فوري + ضمان',
-    description: 'إنجاز العمل بأعلى جودة مع تسليم شهادة الضمان.',
+    title: 'الضمان والمتابعة',
+    description: 'تسليم العمل مع شهادة الضمان والتأكد من رضا العميل.',
     icon: Tool,
   },
 ];
 
 const testimonials = [
   {
-    name: 'محمد، الدمام',
+    name: 'أحمد، الدمام',
     text: 'سرعة في الاستجابة، شغل نظيف، والضمان ده اللي فرق معاي. الفني كان محترف جداً وفاهم شغله.',
     rating: 5,
   },
   {
-    name: 'أحمد، الخبر',
-    text: 'تعاملت معهم في تأسيس فيلتي الجديدة، دقة في المواعيد وجودة في المواد المستخدمة. أنصح بهم بشدة.',
+    name: 'محمد، الخبر',
+    text: 'كشفوا تسريب مياه كان مجنني بقاله شهور وبدون تكسير. بجد تسلم إيديكم.',
     rating: 5,
   },
   {
-    name: 'خالد، الظهران',
-    text: 'كشفوا لي تسريب كان متعبني سنين بدون تكسير. وفروا علي مبالغ كبيرة كانت هتروح في التكسير والترميم.',
+    name: 'ياسر، الظهران',
+    text: 'ركبت سخانات وخلاطات البيت كله معاهم، دقة في المواعيد وسعرهم ممتاز جداً مقارنة بالجودة.',
     rating: 5,
   },
 ];
 
 const faqs = [
   {
-    question: 'هل تقدمون ضماناً على أعمال السباكة؟',
-    answer: 'نعم، شركة دارك تقدم ضماناً لمدة سنتين على جميع أعمال التركيب والصيانة لضمان جودة الخدمة.',
+    question: 'هل تقدمون خدمة كشف التسربات بدون تكسير؟',
+    answer: 'نعم، نستخدم أحدث الأجهزة الإلكترونية لكشف تسربات المياه بدقة متناهية دون الحاجة لتكسير الجدران أو الأرضيات.',
   },
   {
     question: 'كم يستغرق وصول الفني في حالات الطوارئ؟',
-    answer: 'نلتزم بالوصول إليك خلال 4 ساعات كحد أقصى داخل الدمام والخبر والظهران.',
+    answer: 'نلتزم بالوصول إلى موقع العميل في حالات الطوارئ خلال 4 ساعات كحد أقصى في مناطق الدمام والخبر.',
   },
   {
     question: 'هل الفنيون لديكم معتمدون؟',
     answer: 'نعم، جميع الفنيين لدينا معتمدون وذوي خبرة تزيد عن 8 سنوات، والشركة مرخصة من وزارة الإسكان.',
   },
   {
-    question: 'هل تقدمون خدمة كشف تسربات المياه بدون تكسير؟',
-    answer: 'نعم، نستخدم أحدث الأجهزة الإلكترونية لكشف التسربات بدقة عالية، مما يوفر عليك تكاليف التكسير والترميم.',
+    question: 'ما هي مدة الضمان على أعمال السباكة؟',
+    answer: 'نقدم ضماناً لمدة سنتين على جميع أعمال التركيب والصيانة التي نقوم بها.',
   },
 ];
 
 export default function PlumbingLanding() {
-  const whatsappMessage = encodeURIComponent('السلام عليكم، أرغب في الاستفسار عن خدمة السباكة المعتمدة من شركة دارك.');
+  const whatsappMessage = encodeURIComponent('السلام عليكم، أرغب في الاستفسار عن خدمات السباكة من شركة دارك.');
   const whatsappUrl = `https://wa.me/966580369568?text=${whatsappMessage}`;
   const phoneNumber = '+966580369568';
 
@@ -151,7 +151,7 @@ export default function PlumbingLanding() {
       <section className="relative min-h-[80vh] flex items-center pt-20 overflow-hidden bg-[var(--darak-charcoal)]">
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.unsplash.com/photo-1581244277943-fe4a9c777189?q=80&w=1000&auto=format&fit=crop" 
+            src="/images/plumbing/hero.jpg" 
             alt="فني سباكة معتمد - شركة دارك" 
             className="w-full h-full object-cover opacity-40"
           />
@@ -188,7 +188,7 @@ export default function PlumbingLanding() {
           <div className="text-center mb-16">
             <h2 className="darak-heading-lg text-[var(--darak-charcoal)] mb-4">خدماتنا المتخصصة</h2>
             <div className="darak-gold-line mx-auto mb-6" />
-            <p className="darak-body max-w-2xl mx-auto">نقدم حلولاً متكاملة لكافة احتياجات السباكة المنزلية والتجارية بأعلى معايير الإتقان.</p>
+            <p className="darak-body max-w-2xl mx-auto">نقدم حلولاً متكاملة لكافة مشاكل السباكة المنزلية والتجارية بأعلى معايير الجودة والأمان.</p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -237,7 +237,7 @@ export default function PlumbingLanding() {
         <div className="darak-container px-4">
           <div className="text-center mb-16">
             <h2 className="darak-heading-lg text-[var(--darak-charcoal)] mb-4">كيف نعمل؟</h2>
-            <p className="darak-body">خطوات بسيطة تضمن لك جودة التنفيذ وراحة البال.</p>
+            <p className="darak-body">خطوات منظمة تضمن لك حلاً نهائياً لمشاكل السباكة وراحة بال طويلة.</p>
           </div>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 relative">
@@ -300,14 +300,14 @@ export default function PlumbingLanding() {
                 <AlertTriangle className="w-12 h-12 text-white" />
               </div>
               <div>
-                <h2 className="text-3xl md:text-4xl font-bold mb-2">تسريب ماء؟ محتاج سباك فوري؟</h2>
-                <p className="text-xl text-white/90">فريقنا جاهز 24 ساعة. استجابة خلال 4 ساعات.</p>
+                <h2 className="text-3xl md:text-4xl font-bold mb-2">حالة طوارئ؟ تسريب مياه؟</h2>
+                <p className="text-xl text-white/90">فنيو دارك جاهزون لخدمتكم فوراً. نصلكم في أقل من 4 ساعات.</p>
               </div>
             </div>
             <div className="flex flex-wrap gap-4">
               <a href={`tel:${phoneNumber}`} className="bg-white text-[#e63946] px-10 py-5 rounded-sm font-bold hover:bg-gray-100 transition-all flex items-center gap-2 text-xl shadow-xl">
                 <Phone className="w-6 h-6" />
-                اتصل الآن: {phoneNumber}
+                اتصل الآن
               </a>
               <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="bg-[#25D366] text-white px-10 py-5 rounded-sm font-bold hover:bg-[#128C7E] transition-all flex items-center gap-2 text-xl shadow-xl">
                 <MessageSquare className="w-6 h-6" />
@@ -318,46 +318,28 @@ export default function PlumbingLanding() {
         </div>
       </section>
 
-      {/* 7. Footer CTA */}
-      <section className="py-24 bg-[var(--darak-charcoal)] text-white relative overflow-hidden">
-        <div className="absolute top-0 right-0 w-64 h-64 bg-[var(--darak-gold)]/10 rounded-full -translate-y-1/2 translate-x-1/2 blur-3xl" />
-        <div className="absolute bottom-0 left-0 w-64 h-64 bg-[var(--darak-gold)]/10 rounded-full translate-y-1/2 -translate-x-1/2 blur-3xl" />
-        
-        <div className="relative z-10 darak-container px-4 text-center">
-          <h2 className="text-4xl md:text-5xl font-bold mb-8">جاهز تبدأ مشروعك؟</h2>
-          <p className="text-xl text-white/70 mb-12 max-w-2xl mx-auto">
-            لا تتردد في التواصل معنا للحصول على استشارة مجانية وعرض سعر دقيق لمشروعك القادم.
-          </p>
-          <div className="flex flex-wrap justify-center gap-6">
-            <a href={`tel:${phoneNumber}`} className="darak-btn-primary !px-12 !py-5 text-xl">
-              اتصل بنا
-            </a>
-            <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="darak-btn-secondary !border-white !text-white hover:!bg-white hover:!text-[var(--darak-charcoal)] !px-12 !py-5 text-xl">
-              احصل على عرض مجاني
-            </a>
-          </div>
-        </div>
-      </section>
-
-      {/* FAQ Section (Retained but updated style) */}
+      {/* 7. FAQ */}
       <section className="py-24 bg-[var(--darak-offwhite)]">
-        <div className="darak-container px-4 max-w-3xl">
-          <div className="text-center mb-12">
-            <h2 className="darak-heading-lg text-[var(--darak-charcoal)] mb-4">الأسئلة الشائعة</h2>
-            <div className="darak-gold-line mx-auto mb-6" />
+        <div className="darak-container px-4">
+          <div className="text-center mb-16">
+            <h2 className="darak-heading-lg text-[var(--darak-charcoal)] mb-4">أسئلة شائعة</h2>
+            <p className="darak-body">إجابات على أكثر الأسئلة التي يطرحها عملاؤنا.</p>
           </div>
-          <Accordion type="single" collapsible className="w-full space-y-4">
-            {faqs.map((faq, index) => (
-              <AccordionItem key={index} value={`item-${index}`} className="bg-white px-6 rounded-lg border border-gray-100 shadow-sm">
-                <AccordionTrigger className="text-right font-bold text-[var(--darak-charcoal)] hover:text-[var(--darak-gold)] transition-colors py-6">
-                  {faq.question}
-                </AccordionTrigger>
-                <AccordionContent className="text-right text-[var(--darak-charcoal-muted)] leading-relaxed pb-6">
-                  {faq.answer}
-                </AccordionContent>
-              </AccordionItem>
-            ))}
-          </Accordion>
+          
+          <div className="max-w-3xl mx-auto">
+            <Accordion type="single" collapsible className="space-y-4">
+              {faqs.map((faq, index) => (
+                <AccordionItem key={index} value={`item-${index}`} className="bg-white border border-gray-200 rounded-lg px-6">
+                  <AccordionTrigger className="text-lg font-bold text-[var(--darak-charcoal)] hover:text-[var(--darak-gold)]">
+                    {faq.question}
+                  </AccordionTrigger>
+                  <AccordionContent className="text-gray-600 leading-relaxed">
+                    {faq.answer}
+                  </AccordionContent>
+                </AccordionItem>
+              ))}
+            </Accordion>
+          </div>
         </div>
       </section>
     </main>

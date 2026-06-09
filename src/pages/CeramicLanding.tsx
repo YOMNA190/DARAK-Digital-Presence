@@ -8,42 +8,42 @@ const subServices = [
     title: 'بورسلان كبير الحجم',
     description: 'تركيب بورسلان مقاسات كبيرة بإتقان لضمان مظهر فخم وبدون فوارق.',
     icon: '🟫',
-    image: 'https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?q=80&w=1000&auto=format&fit=crop'
+    image: '/images/ceramic/install.jpg'
   },
   {
     id: 2,
     title: 'زخارف سيراميك خاصة',
     description: 'تصاميم زخرفية مخصصة للأرضيات والجدران تضفي جمالاً فريداً.',
     icon: '🎨',
-    image: 'https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?q=80&w=1000&auto=format&fit=crop'
+    image: '/images/ceramic/install.jpg'
   },
   {
     id: 3,
     title: 'توحيد فواصل',
     description: 'فواصل متساوية ودقيقة باستخدام أدوات ليزر ومثبتات احترافية.',
     icon: '📏',
-    image: 'https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?q=80&w=1000&auto=format&fit=crop'
+    image: '/images/ceramic/install.jpg'
   },
   {
     id: 4,
     title: 'تركيب سيراميك حمامات',
     description: 'سيراميك مقاوم للماء بجودة عالية مع عزل مائي متكامل.',
     icon: '🚿',
-    image: 'https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?q=80&w=1000&auto=format&fit=crop'
+    image: '/images/ceramic/install.jpg'
   },
   {
     id: 5,
     title: 'تركيب سيراميك مطابخ',
     description: 'أرضيات وجدران مطابخ بأحدث التصاميم العصرية سهلة التنظيف.',
     icon: '🍳',
-    image: 'https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?q=80&w=1000&auto=format&fit=crop'
+    image: '/images/ceramic/install.jpg'
   },
   {
     id: 6,
     title: 'تركيب باركيه سيراميك',
     description: 'باركيه سيراميك بشكل خشبي طبيعي يجمع بين الجمال والمتانة.',
     icon: '🪵',
-    image: 'https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?q=80&w=1000&auto=format&fit=crop'
+    image: '/images/ceramic/install.jpg'
   },
 ];
 
@@ -151,7 +151,7 @@ export default function CeramicLanding() {
       <section className="relative min-h-[80vh] flex items-center pt-20 overflow-hidden bg-[var(--darak-charcoal)]">
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?q=80&w=1000&auto=format&fit=crop" 
+            src="/images/ceramic/hero.jpg" 
             alt="تركيب سيراميك وبورسلان - شركة دارك" 
             className="w-full h-full object-cover opacity-40"
           />

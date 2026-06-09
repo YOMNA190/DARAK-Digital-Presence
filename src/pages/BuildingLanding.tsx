@@ -8,42 +8,42 @@ const subServices = [
     title: 'بناء فلل سكنية',
     description: 'بناء فلل حديثة بتصاميم معمارية عصرية وتقنيات بناء متقدمة.',
     icon: '🏗️',
-    image: 'https://images.unsplash.com/photo-1503387762-592dee58c460?q=80&w=1000&auto=format&fit=crop'
+    image: '/images/building/site.jpg'
   },
   {
     id: 2,
     title: 'بناء عمائر سكنية',
     description: 'تشييد عمائر سكنية متعددة الطوابق بمعايير الأمان العالمية.',
     icon: '🏢',
-    image: 'https://images.unsplash.com/photo-1503387762-592dee58c460?q=80&w=1000&auto=format&fit=crop'
+    image: '/images/building/site.jpg'
   },
   {
     id: 3,
     title: 'أعمال خرسانية',
     description: 'صب وتشطيب خرساني بأعلى جودة وأحدث المعدات.',
     icon: '🪨',
-    image: 'https://images.unsplash.com/photo-1503387762-592dee58c460?q=80&w=1000&auto=format&fit=crop'
+    image: '/images/building/site.jpg'
   },
   {
     id: 4,
     title: 'تدعيم وترميم',
     description: 'تدعيم المباني القديمة وترميم الأساسات والجدران.',
     icon: '🔨',
-    image: 'https://images.unsplash.com/photo-1503387762-592dee58c460?q=80&w=1000&auto=format&fit=crop'
+    image: '/images/building/site.jpg'
   },
   {
     id: 5,
     title: 'أعمال حديد التسليح',
     description: 'تركيب وتجهيز حديد التسليح بمواصفات هندسية دقيقة.',
     icon: '⚙️',
-    image: 'https://images.unsplash.com/photo-1503387762-592dee58c460?q=80&w=1000&auto=format&fit=crop'
+    image: '/images/building/site.jpg'
   },
   {
     id: 6,
     title: 'إشراف هندسي',
     description: 'إشراف هندسي متكامل على جميع مراحل البناء.',
     icon: '📋',
-    image: 'https://images.unsplash.com/photo-1503387762-592dee58c460?q=80&w=1000&auto=format&fit=crop'
+    image: '/images/building/site.jpg'
   },
 ];
 
@@ -151,7 +151,7 @@ export default function BuildingLanding() {
       <section className="relative min-h-[80vh] flex items-center pt-20 overflow-hidden bg-[var(--darak-charcoal)]">
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.unsplash.com/photo-1541913080211-4712411b4d6c?q=80&w=1000&auto=format&fit=crop" 
+            src="/images/building/hero.jpg" 
             alt="مقاول بناء معتمد - شركة دارك" 
             className="w-full h-full object-cover opacity-40"
           />

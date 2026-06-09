@@ -8,42 +8,42 @@ const subServices = [
     title: 'تأسيس كهرباء جديد',
     description: 'تمديد شبكات كهربائية كاملة للمباني الجديدة بأعلى معايير السلامة.',
     icon: '⚡',
-    image: 'https://images.unsplash.com/photo-1454165833767-027ffea9e77b?q=80&w=1000&auto=format&fit=crop'
+    image: '/images/electrical/panel.jpg'
   },
   {
     id: 2,
     title: 'صيانة كهرباء',
     description: 'تصليح الأعطال الكهربائية واستبدال اللوحات والمفاتيح التالفة.',
     icon: '🔧',
-    image: 'https://images.unsplash.com/photo-1454165833767-027ffea9e77b?q=80&w=1000&auto=format&fit=crop'
+    image: '/images/electrical/panel.jpg'
   },
   {
     id: 3,
     title: 'تركيب لوحات توزيع',
     description: 'تركيب لوحات كهربائية حديثة ومنظمة بمعايير السلامة العالمية.',
     icon: '📊',
-    image: 'https://images.unsplash.com/photo-1454165833767-027ffea9e77b?q=80&w=1000&auto=format&fit=crop'
+    image: '/images/electrical/panel.jpg'
   },
   {
     id: 4,
     title: 'تركيب إنارة',
     description: 'إنارة داخلية وخارجية LED بأحدث التصاميم الموفرة للطاقة.',
     icon: '💡',
-    image: 'https://images.unsplash.com/photo-1454165833767-027ffea9e77b?q=80&w=1000&auto=format&fit=crop'
+    image: '/images/electrical/panel.jpg'
   },
   {
     id: 5,
     title: 'تركيب داتا وشبكات',
     description: 'تمديد كابلات الشبكة والاتصالات وأنظمة الأمان الحديثة.',
     icon: '🌐',
-    image: 'https://images.unsplash.com/photo-1454165833767-027ffea9e77b?q=80&w=1000&auto=format&fit=crop'
+    image: '/images/electrical/panel.jpg'
   },
   {
     id: 6,
     title: 'كشف أعطال كهربائية',
     description: 'كشف دقيق للأعطال والتماسات الكهرباء بأحدث الأجهزة المتخصصة.',
     icon: '🔍',
-    image: 'https://images.unsplash.com/photo-1454165833767-027ffea9e77b?q=80&w=1000&auto=format&fit=crop'
+    image: '/images/electrical/panel.jpg'
   },
 ];
 
@@ -151,7 +151,7 @@ export default function ElectricalLanding() {
       <section className="relative min-h-[80vh] flex items-center pt-20 overflow-hidden bg-[var(--darak-charcoal)]">
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=1000&auto=format&fit=crop" 
+            src="/images/electrical/hero.jpg" 
             alt="كهرباء معتمدة - شركة دارك" 
             className="w-full h-full object-cover opacity-40"
           />
