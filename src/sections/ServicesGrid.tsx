@@ -21,7 +21,7 @@ const services = [
     subtitle: 'تركيبات صحية احترافية',
     image: '/images/service-plumbing.jpg',
     size: 'medium',
-    href: '/plumbing-services',
+    href: '#/plumbing-services',
   },
   {
     title: 'الكهرباء المعتمدة',
