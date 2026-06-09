@@ -18,7 +18,7 @@ export default function PhoneButton() {
           <Phone className="w-6 h-6 fill-white" />
           <div className="flex flex-col items-start">
             <span className="text-xs font-medium opacity-90">اتصل الآن</span>
-            <span className="text-sm font-bold">فني سباكة متاح</span>
+            <span className="text-sm font-bold">متاحون لخدمتك</span>
           </div>
         </div>
       </div>

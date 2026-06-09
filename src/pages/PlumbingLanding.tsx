@@ -8,42 +8,42 @@ const subServices = [
     title: 'تأسيس سباكة جديدة',
     description: 'تركيب مواسير وشبكات صحية للمباني الجديدة والفلل بأعلى المعايير.',
     icon: '🚰',
-    image: '/images/plumbing/new-construction.jpg'
+    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?q=80&w=1000&auto=format&fit=crop'
   },
   {
     id: 2,
     title: 'صيانة سباكة',
     description: 'تصليح تسريبات، تبديل خلاطات، صيانة دورية بأيدي خبراء.',
     icon: '🔧',
-    image: '/images/plumbing/maintenance.jpg'
+    image: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=1000&auto=format&fit=crop'
   },
   {
     id: 3,
     title: 'كشف تسربات المياه',
     description: 'كشف إلكتروني دقيق بدون تكسير باستخدام أحدث التقنيات.',
     icon: '🔍',
-    image: '/images/plumbing/leak-detection.jpg'
+    image: 'https://images.unsplash.com/photo-1595467793069-930a599587c4?q=80&w=1000&auto=format&fit=crop'
   },
   {
     id: 4,
     title: 'تركيب سخانات مياه',
     description: 'تركيب وتبديل سخانات كهرباء وغاز مع ضمان السلامة.',
     icon: '🌡️',
-    image: '/images/plumbing/heater.jpg'
+    image: 'https://images.unsplash.com/photo-1585704032915-c3400ca1f963?q=80&w=1000&auto=format&fit=crop'
   },
   {
     id: 5,
     title: 'تركيب خلاطات ومغاسل',
     description: 'تركيب وتبديل جميع أنواع الخلاطات والمغاسل بلمسة احترافية.',
     icon: '🚿',
-    image: '/images/plumbing/fixtures.jpg'
+    image: 'https://images.unsplash.com/photo-1585704032975-c3f82e846092?q=80&w=1000&auto=format&fit=crop'
   },
   {
     id: 6,
     title: 'تأسيس حمامات ومطابخ',
     description: 'تركيب كامل لسباكة المطابخ والحمامات بتصاميم عصرية.',
     icon: '🛁',
-    image: '/images/plumbing/kitchen-bath.jpg'
+    image: 'https://images.unsplash.com/photo-1556911220-e15b29be8c8f?q=80&w=1000&auto=format&fit=crop'
   },
 ];
 
@@ -151,7 +151,7 @@ export default function PlumbingLanding() {
       <section className="relative min-h-[80vh] flex items-center pt-20 overflow-hidden bg-[var(--darak-charcoal)]">
         <div className="absolute inset-0 z-0">
           <img 
-            src="/images/plumbing/hero.jpg" 
+            src="https://images.unsplash.com/photo-1581244277943-fe4a9c777189?q=80&w=1000&auto=format&fit=crop" 
             alt="فني سباكة معتمد - شركة دارك" 
             className="w-full h-full object-cover opacity-40"
           />
@@ -171,7 +171,7 @@ export default function PlumbingLanding() {
             <div className="flex flex-wrap gap-4">
               <a href={`tel:${phoneNumber}`} className="darak-btn-primary !px-10 !py-5 text-lg">
                 <Phone className="w-6 h-6" />
-                اتصل الآن
+                اطلب فني سباكة
               </a>
               <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="bg-[#25D366] text-white px-10 py-5 rounded-sm font-bold hover:bg-[#128C7E] transition-all flex items-center gap-2 text-lg shadow-lg">
                 <MessageSquare className="w-6 h-6" />

@@ -8,42 +8,42 @@ const subServices = [
     title: 'لياسة خارجية',
     description: 'تلبيس واجهات المباني بأجود أنواع اللياسة المقاومة للعوامل الجوية.',
     icon: '🏗️',
-    image: '/images/service-plastering.jpg'
+    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?q=80&w=1000&auto=format&fit=crop'
   },
   {
     id: 2,
     title: 'محارة داخلية',
     description: 'تنعيم الجدران الداخلية بإتقان واحترافية لتجهيزها للدهانات.',
     icon: '🎨',
-    image: '/images/service-plastering.jpg'
+    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?q=80&w=1000&auto=format&fit=crop'
   },
   {
     id: 3,
     title: 'تلبيس حجر',
     description: 'تركيب الحجر الطبيعي والصناعي للواجهات بلمسة فنية راقية.',
     icon: '🪨',
-    image: '/images/service-plastering.jpg'
+    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?q=80&w=1000&auto=format&fit=crop'
   },
   {
     id: 4,
     title: 'عزل حراري ومائي',
     description: 'عزل حراري ومائي للجدران والأسطح لتقليل استهلاك الطاقة.',
     icon: '❄️',
-    image: '/images/service-plastering.jpg'
+    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?q=80&w=1000&auto=format&fit=crop'
   },
   {
     id: 5,
     title: 'تنعيم وتهذيب',
     description: 'تشطيب نهائي بجودة عالية للمباني والأسطح الخرسانية.',
     icon: '✨',
-    image: '/images/service-plastering.jpg'
+    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?q=80&w=1000&auto=format&fit=crop'
   },
   {
     id: 6,
     title: 'تشطيبات خرسانية',
     description: 'تنعيم وتشطيب الأسطح الخرسانية بأحدث المعدات.',
     icon: '🔨',
-    image: '/images/service-plastering.jpg'
+    image: 'https://images.unsplash.com/photo-1504148455328-c376907d081c?q=80&w=1000&auto=format&fit=crop'
   },
 ];
 
@@ -151,7 +151,7 @@ export default function PlasteringLanding() {
       <section className="relative min-h-[80vh] flex items-center pt-20 overflow-hidden bg-[var(--darak-charcoal)]">
         <div className="absolute inset-0 z-0">
           <img 
-            src="/images/service-plastering.jpg" 
+            src="https://images.unsplash.com/photo-1589939705384-5185137a7f0f?q=80&w=1000&auto=format&fit=crop" 
             alt="لياسة ومحارة احترافية - شركة دارك" 
             className="w-full h-full object-cover opacity-40"
           />
@@ -171,7 +171,7 @@ export default function PlasteringLanding() {
             <div className="flex flex-wrap gap-4">
               <a href={`tel:${phoneNumber}`} className="darak-btn-primary !px-10 !py-5 text-lg">
                 <Phone className="w-6 h-6" />
-                اطلب لياسة احترافية
+                اطلب فني لياسة
               </a>
               <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="bg-[#25D366] text-white px-10 py-5 rounded-sm font-bold hover:bg-[#128C7E] transition-all flex items-center gap-2 text-lg shadow-lg">
                 <MessageSquare className="w-6 h-6" />

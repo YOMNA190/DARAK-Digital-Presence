@@ -8,42 +8,42 @@ const subServices = [
     title: 'بناء فلل سكنية',
     description: 'بناء فلل حديثة بتصاميم معمارية عصرية وتقنيات بناء متقدمة.',
     icon: '🏗️',
-    image: '/images/service-building.jpg'
+    image: 'https://images.unsplash.com/photo-1503387762-592dee58c460?q=80&w=1000&auto=format&fit=crop'
   },
   {
     id: 2,
     title: 'بناء عمائر سكنية',
     description: 'تشييد عمائر سكنية متعددة الطوابق بمعايير الأمان العالمية.',
     icon: '🏢',
-    image: '/images/service-building.jpg'
+    image: 'https://images.unsplash.com/photo-1503387762-592dee58c460?q=80&w=1000&auto=format&fit=crop'
   },
   {
     id: 3,
     title: 'أعمال خرسانية',
     description: 'صب وتشطيب خرساني بأعلى جودة وأحدث المعدات.',
     icon: '🪨',
-    image: '/images/service-building.jpg'
+    image: 'https://images.unsplash.com/photo-1503387762-592dee58c460?q=80&w=1000&auto=format&fit=crop'
   },
   {
     id: 4,
     title: 'تدعيم وترميم',
     description: 'تدعيم المباني القديمة وترميم الأساسات والجدران.',
     icon: '🔨',
-    image: '/images/service-building.jpg'
+    image: 'https://images.unsplash.com/photo-1503387762-592dee58c460?q=80&w=1000&auto=format&fit=crop'
   },
   {
     id: 5,
     title: 'أعمال حديد التسليح',
     description: 'تركيب وتجهيز حديد التسليح بمواصفات هندسية دقيقة.',
     icon: '⚙️',
-    image: '/images/service-building.jpg'
+    image: 'https://images.unsplash.com/photo-1503387762-592dee58c460?q=80&w=1000&auto=format&fit=crop'
   },
   {
     id: 6,
     title: 'إشراف هندسي',
     description: 'إشراف هندسي متكامل على جميع مراحل البناء.',
     icon: '📋',
-    image: '/images/service-building.jpg'
+    image: 'https://images.unsplash.com/photo-1503387762-592dee58c460?q=80&w=1000&auto=format&fit=crop'
   },
 ];
 
@@ -151,7 +151,7 @@ export default function BuildingLanding() {
       <section className="relative min-h-[80vh] flex items-center pt-20 overflow-hidden bg-[var(--darak-charcoal)]">
         <div className="absolute inset-0 z-0">
           <img 
-            src="/images/service-building.jpg" 
+            src="https://images.unsplash.com/photo-1541913080211-4712411b4d6c?q=80&w=1000&auto=format&fit=crop" 
             alt="مقاول بناء معتمد - شركة دارك" 
             className="w-full h-full object-cover opacity-40"
           />
@@ -171,7 +171,7 @@ export default function BuildingLanding() {
             <div className="flex flex-wrap gap-4">
               <a href={`tel:${phoneNumber}`} className="darak-btn-primary !px-10 !py-5 text-lg">
                 <Phone className="w-6 h-6" />
-                اطلب استشارة مجانية
+                اطلب مقاول بناء
               </a>
               <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="bg-[#25D366] text-white px-10 py-5 rounded-sm font-bold hover:bg-[#128C7E] transition-all flex items-center gap-2 text-lg shadow-lg">
                 <MessageSquare className="w-6 h-6" />

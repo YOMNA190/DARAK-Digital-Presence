@@ -8,42 +8,42 @@ const subServices = [
     title: 'بورسلان كبير الحجم',
     description: 'تركيب بورسلان مقاسات كبيرة بإتقان لضمان مظهر فخم وبدون فوارق.',
     icon: '🟫',
-    image: '/images/service-ceramic.jpg'
+    image: 'https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?q=80&w=1000&auto=format&fit=crop'
   },
   {
     id: 2,
     title: 'زخارف سيراميك خاصة',
     description: 'تصاميم زخرفية مخصصة للأرضيات والجدران تضفي جمالاً فريداً.',
     icon: '🎨',
-    image: '/images/service-ceramic.jpg'
+    image: 'https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?q=80&w=1000&auto=format&fit=crop'
   },
   {
     id: 3,
     title: 'توحيد فواصل',
     description: 'فواصل متساوية ودقيقة باستخدام أدوات ليزر ومثبتات احترافية.',
     icon: '📏',
-    image: '/images/service-ceramic.jpg'
+    image: 'https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?q=80&w=1000&auto=format&fit=crop'
   },
   {
     id: 4,
     title: 'تركيب سيراميك حمامات',
     description: 'سيراميك مقاوم للماء بجودة عالية مع عزل مائي متكامل.',
     icon: '🚿',
-    image: '/images/service-ceramic.jpg'
+    image: 'https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?q=80&w=1000&auto=format&fit=crop'
   },
   {
     id: 5,
     title: 'تركيب سيراميك مطابخ',
     description: 'أرضيات وجدران مطابخ بأحدث التصاميم العصرية سهلة التنظيف.',
     icon: '🍳',
-    image: '/images/service-ceramic.jpg'
+    image: 'https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?q=80&w=1000&auto=format&fit=crop'
   },
   {
     id: 6,
     title: 'تركيب باركيه سيراميك',
     description: 'باركيه سيراميك بشكل خشبي طبيعي يجمع بين الجمال والمتانة.',
     icon: '🪵',
-    image: '/images/service-ceramic.jpg'
+    image: 'https://images.unsplash.com/photo-1516455590571-18256e5bb9ff?q=80&w=1000&auto=format&fit=crop'
   },
 ];
 
@@ -151,7 +151,7 @@ export default function CeramicLanding() {
       <section className="relative min-h-[80vh] flex items-center pt-20 overflow-hidden bg-[var(--darak-charcoal)]">
         <div className="absolute inset-0 z-0">
           <img 
-            src="/images/service-ceramic.jpg" 
+            src="https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?q=80&w=1000&auto=format&fit=crop" 
             alt="تركيب سيراميك وبورسلان - شركة دارك" 
             className="w-full h-full object-cover opacity-40"
           />
@@ -171,7 +171,7 @@ export default function CeramicLanding() {
             <div className="flex flex-wrap gap-4">
               <a href={`tel:${phoneNumber}`} className="darak-btn-primary !px-10 !py-5 text-lg">
                 <Phone className="w-6 h-6" />
-                اطلب تركيب سيراميك
+                اطلب فني سيراميك
               </a>
               <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="bg-[#25D366] text-white px-10 py-5 rounded-sm font-bold hover:bg-[#128C7E] transition-all flex items-center gap-2 text-lg shadow-lg">
                 <MessageSquare className="w-6 h-6" />

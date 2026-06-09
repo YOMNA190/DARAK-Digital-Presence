@@ -8,42 +8,42 @@ const subServices = [
     title: 'تأسيس كهرباء جديد',
     description: 'تمديد شبكات كهربائية كاملة للمباني الجديدة بأعلى معايير السلامة.',
     icon: '⚡',
-    image: '/images/service-electrical.jpg'
+    image: 'https://images.unsplash.com/photo-1454165833767-027ffea9e77b?q=80&w=1000&auto=format&fit=crop'
   },
   {
     id: 2,
     title: 'صيانة كهرباء',
     description: 'تصليح الأعطال الكهربائية واستبدال اللوحات والمفاتيح التالفة.',
     icon: '🔧',
-    image: '/images/service-electrical.jpg'
+    image: 'https://images.unsplash.com/photo-1454165833767-027ffea9e77b?q=80&w=1000&auto=format&fit=crop'
   },
   {
     id: 3,
     title: 'تركيب لوحات توزيع',
     description: 'تركيب لوحات كهربائية حديثة ومنظمة بمعايير السلامة العالمية.',
     icon: '📊',
-    image: '/images/service-electrical.jpg'
+    image: 'https://images.unsplash.com/photo-1454165833767-027ffea9e77b?q=80&w=1000&auto=format&fit=crop'
   },
   {
     id: 4,
     title: 'تركيب إنارة',
     description: 'إنارة داخلية وخارجية LED بأحدث التصاميم الموفرة للطاقة.',
     icon: '💡',
-    image: '/images/service-electrical.jpg'
+    image: 'https://images.unsplash.com/photo-1454165833767-027ffea9e77b?q=80&w=1000&auto=format&fit=crop'
   },
   {
     id: 5,
     title: 'تركيب داتا وشبكات',
     description: 'تمديد كابلات الشبكة والاتصالات وأنظمة الأمان الحديثة.',
     icon: '🌐',
-    image: '/images/service-electrical.jpg'
+    image: 'https://images.unsplash.com/photo-1454165833767-027ffea9e77b?q=80&w=1000&auto=format&fit=crop'
   },
   {
     id: 6,
     title: 'كشف أعطال كهربائية',
     description: 'كشف دقيق للأعطال والتماسات الكهرباء بأحدث الأجهزة المتخصصة.',
     icon: '🔍',
-    image: '/images/service-electrical.jpg'
+    image: 'https://images.unsplash.com/photo-1454165833767-027ffea9e77b?q=80&w=1000&auto=format&fit=crop'
   },
 ];
 
@@ -151,7 +151,7 @@ export default function ElectricalLanding() {
       <section className="relative min-h-[80vh] flex items-center pt-20 overflow-hidden bg-[var(--darak-charcoal)]">
         <div className="absolute inset-0 z-0">
           <img 
-            src="/images/service-electrical.jpg" 
+            src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=1000&auto=format&fit=crop" 
             alt="كهرباء معتمدة - شركة دارك" 
             className="w-full h-full object-cover opacity-40"
           />
@@ -171,7 +171,7 @@ export default function ElectricalLanding() {
             <div className="flex flex-wrap gap-4">
               <a href={`tel:${phoneNumber}`} className="darak-btn-primary !px-10 !py-5 text-lg">
                 <Phone className="w-6 h-6" />
-                اطلب فني كهرباء
+                اطلب فني كهرباء معتمد
               </a>
               <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="bg-[#25D366] text-white px-10 py-5 rounded-sm font-bold hover:bg-[#128C7E] transition-all flex items-center gap-2 text-lg shadow-lg">
                 <MessageSquare className="w-6 h-6" />

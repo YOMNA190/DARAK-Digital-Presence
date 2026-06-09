@@ -8,42 +8,42 @@ const subServices = [
     title: 'رخام إيطالي',
     description: 'رخام مستورد من إيطاليا بأجود الأنواع وأرقى التصاميم.',
     icon: '💎',
-    image: '/images/service-marble.jpg'
+    image: 'https://images.unsplash.com/photo-1560185007-cde436f6a4d0?q=80&w=1000&auto=format&fit=crop'
   },
   {
     id: 2,
     title: 'رخام صناعي',
     description: 'رخام صناعي عالي الجودة بأسعار تنافسية للمطابخ والمغاسل.',
     icon: '✨',
-    image: '/images/service-marble.jpg'
+    image: 'https://images.unsplash.com/photo-1560185007-cde436f6a4d0?q=80&w=1000&auto=format&fit=crop'
   },
   {
     id: 3,
     title: 'تركيب أرضيات رخام',
     description: 'تغطية الأرضيات بإتقان واحترافية لضمان استواء السطح.',
     icon: '🏠',
-    image: '/images/service-marble.jpg'
+    image: 'https://images.unsplash.com/photo-1560185007-cde436f6a4d0?q=80&w=1000&auto=format&fit=crop'
   },
   {
     id: 4,
     title: 'تركيب درج رخام',
     description: 'درج رخامي متكامل بجودة عالية وتشطيب فني دقيق.',
     icon: '🪜',
-    image: '/images/service-marble.jpg'
+    image: 'https://images.unsplash.com/photo-1560185007-cde436f6a4d0?q=80&w=1000&auto=format&fit=crop'
   },
   {
     id: 5,
     title: 'تركيب واجهات رخام',
     description: 'تلبيس واجهات خارجية بالرخام الطبيعي لإعطاء مظهر فخم.',
     icon: '🏢',
-    image: '/images/service-marble.jpg'
+    image: 'https://images.unsplash.com/photo-1560185007-cde436f6a4d0?q=80&w=1000&auto=format&fit=crop'
   },
   {
     id: 6,
     title: 'تلميع وصيانة رخام',
     description: 'تلميع دوري وصيانة للرخام المتركب لاستعادة بريقه.',
     icon: '🌟',
-    image: '/images/service-marble.jpg'
+    image: 'https://images.unsplash.com/photo-1560185007-cde436f6a4d0?q=80&w=1000&auto=format&fit=crop'
   },
 ];
 
@@ -151,7 +151,7 @@ export default function MarbleLanding() {
       <section className="relative min-h-[80vh] flex items-center pt-20 overflow-hidden bg-[var(--darak-charcoal)]">
         <div className="absolute inset-0 z-0">
           <img 
-            src="/images/service-marble.jpg" 
+            src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1000&auto=format&fit=crop" 
             alt="تركيب رخام فاخر - شركة دارك" 
             className="w-full h-full object-cover opacity-40"
           />
@@ -171,7 +171,7 @@ export default function MarbleLanding() {
             <div className="flex flex-wrap gap-4">
               <a href={`tel:${phoneNumber}`} className="darak-btn-primary !px-10 !py-5 text-lg">
                 <Phone className="w-6 h-6" />
-                اطلب استشارة مجانية
+                اطلب فني رخام
               </a>
               <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="bg-[#25D366] text-white px-10 py-5 rounded-sm font-bold hover:bg-[#128C7E] transition-all flex items-center gap-2 text-lg shadow-lg">
                 <MessageSquare className="w-6 h-6" />
