@@ -169,7 +169,20 @@ export default function PlumbingLanding() {
               45 فني معتمد | ضمان 2 سنة | استجابة خلال 4 ساعات
             </p>
             <div className="flex flex-wrap gap-4">
-              <a href={`tel:${phoneNumber}`} className="darak-btn-primary !px-10 !py-5 text-lg">
+              <a 
+                href={`tel:${phoneNumber}`} 
+                onClick={(e) => {
+                  e.preventDefault();
+                  // @ts-ignore
+                  if (typeof gtag_report_conversion === 'function') {
+                    // @ts-ignore
+                    gtag_report_conversion(`tel:${phoneNumber}`);
+                  } else {
+                    window.location.href = `tel:${phoneNumber}`;
+                  }
+                }}
+                className="darak-btn-primary !px-10 !py-5 text-lg"
+              >
                 <Phone className="w-6 h-6" />
                 اطلب فني سباكة
               </a>
@@ -305,7 +318,20 @@ export default function PlumbingLanding() {
               </div>
             </div>
             <div className="flex flex-wrap gap-4">
-              <a href={`tel:${phoneNumber}`} className="bg-white text-[#e63946] px-10 py-5 rounded-sm font-bold hover:bg-gray-100 transition-all flex items-center gap-2 text-xl shadow-xl">
+              <a 
+                href={`tel:${phoneNumber}`} 
+                onClick={(e) => {
+                  e.preventDefault();
+                  // @ts-ignore
+                  if (typeof gtag_report_conversion === 'function') {
+                    // @ts-ignore
+                    gtag_report_conversion(`tel:${phoneNumber}`);
+                  } else {
+                    window.location.href = `tel:${phoneNumber}`;
+                  }
+                }}
+                className="bg-white text-[#e63946] px-10 py-5 rounded-sm font-bold hover:bg-gray-100 transition-all flex items-center gap-2 text-xl shadow-xl"
+              >
                 <Phone className="w-6 h-6" />
                 اتصل الآن
               </a>
