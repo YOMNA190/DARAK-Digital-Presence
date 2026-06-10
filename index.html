@@ -141,7 +141,7 @@
     gtag('config', 'AW-17822392392');
   </script>
 
-  <!-- Event snippet for انقر للاتصال (1) conversion page -->
+  <!-- Event snippet for conversion pages -->
   <script>
     function gtag_report_conversion(url) {
       var callback = function () {
@@ -149,12 +149,23 @@
           window.location = url;
         }
       };
+      
+      // انقر للاتصال (1)
       gtag('event', 'conversion', {
           'send_to': 'AW-17822392392/vgCTCI20lrwcEMjAsLJC',
+          'value': 1.0,
+          'currency': 'EGP'
+      });
+
+      // جهة اتصال (2)
+      gtag('event', 'conversion', {
+          'send_to': 'AW-17822392392/1FdyCJC0lrwcEMjAsLJC',
           'value': 1.0,
           'currency': 'EGP',
           'event_callback': callback
       });
+
+      if (!url) callback();
       return false;
     }
   </script>
