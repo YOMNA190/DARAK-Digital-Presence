@@ -6,6 +6,16 @@ export default function PhoneButton() {
   return (
     <a
       href={`tel:${phoneNumber}`}
+      onClick={(e) => {
+        e.preventDefault();
+        // @ts-ignore
+        if (typeof gtag_report_conversion === 'function') {
+          // @ts-ignore
+          gtag_report_conversion(`tel:${phoneNumber}`);
+        } else {
+          window.location.href = `tel:${phoneNumber}`;
+        }
+      }}
       className="fixed bottom-24 left-6 z-50 group"
       aria-label="اتصل بنا الآن"
     >

@@ -132,6 +132,33 @@
   }
   </script>
 
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17822392392"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'AW-17822392392');
+  </script>
+
+  <!-- Event snippet for انقر للاتصال (1) conversion page -->
+  <script>
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof(url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+          'send_to': 'AW-17822392392/vgCTCI20lrwcEMjAsLJC',
+          'value': 1.0,
+          'currency': 'EGP',
+          'event_callback': callback
+      });
+      return false;
+    }
+  </script>
+
   <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%231A1A1A' width='100' height='100'/><text y='.9em' font-size='90' x='50%' text-anchor='middle' dominant-baseline='middle' fill='%23C9A96E'>D</text></svg>" />
 </head>
